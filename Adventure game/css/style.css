@@ -1,0 +1,110 @@
+body {
+	background-image: url(../img/bg2.jpg);
+	height: 100%;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	height: 18%;
+	width: 100%;
+	background-color:rgba(0,0,0,0.6);
+}
+
+#title {
+	color: white;
+	font-family: Tahoma;
+	text-align: center;
+}
+
+#options {
+	list-style-type: none;
+	font-family: Tahoma;
+	font-size: 19px;
+	text-align: center;
+	display: inline-block;
+	margin-left: 70px;
+	padding-left: 0px;
+	color: red;
+	text-decoration: none;
+}
+
+#image {
+	position: relative;
+	left: 376px;
+	width: 786px;
+	height: 450px;
+	border-style: solid;
+	border-color: white;
+}
+
+#chainsaw {
+	position: absolute;
+	top: 360px;
+	right: 700px;
+	width: 8%;
+	height: 8%;
+}
+
+#key {
+	position: absolute;
+	top: 500px;
+	left: 520px;
+	right: 750px;
+	width: 20px;
+	height: 20px
+}
+
+#fuel {
+	position: absolute;
+	top: 400px;
+	right: 620px;
+	width: 4%;
+	height: 9%;
+}
+
+#textbox {
+	position: absolute;
+	top: 0px;
+	left: 360px;
+	color: red;
+	font-family: Tahoma;
+	font-size: 19px;
+	padding-right: 350px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+li a {
+	padding: 6px;
+}
+
+#startgame {
+	font-size: 35px;
+	position: relative;
+	left: 700px;
+	font-family: Tahoma;
+}
+
+#startgame:hover {
+	font-size: 36px;
+	transition: linear 0.25s;
+	position: relative;
+	left: 695px;
+}
+
+#uitleg {
+	font-size: 25px;
+	position: relative;
+	left: 545px;
+	top: 43px;
+	font-family: Tahoma;
+}
