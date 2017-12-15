@@ -525,7 +525,7 @@
 	}
 
 	function win() {
-		image.src = "img/win.jpg"
+		image.src = "img/win.gif"
 		title.innerHTML = "You won"
 		textbox.innerHTML = "Your normal life goes on, \
 		you don't tell anyone what happened that day, \
